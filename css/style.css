@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Oswald:wght@200&family=Pixelify+Sans&display=swap');
+
+
+body{
+    background-color: rgb(210, 210, 165);
+}
+
+
+
+.pealkiri{
+    text-align: center;
+    color: rgb(99, 5, 5);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+    animation: pealkiri;
+    animation-duration: 6s;
+    position: relative;
+
+}
+
+@keyframes pealkiri {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+
+
+
+
+
+.sissejuhatus{
+    text-align: left;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 90;
+    animation: colorChange 6s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: rgb(44, 8, 78); }
+    50% { color: rgb(255, 0, 0); }
+    100% { color: rgb(44, 8, 78); }
+}
+
+
+.pilt {
+     color: rgb(44, 8, 78);
+    font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        margin-top: -10px;
+
+}
+
+img {
+    margin-left: 210px; border-radius: 30%;width: 250px; 
+    margin-top: 10px; margin-bottom: -90px;
+    animation: zoomIn 3s ease-out;
+}
+
+@keyframes zoomIn {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+.tabel{
+text-align: left;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 0;
+margin-bottom: 10px;
+}
+
+.koostisosad{
+    text-align: left;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.tegemine{
+    text-align: left;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.originaal{
+    text-align: center;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: auto;
+
+}
+
+.link{
+    text-align: center;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: auto;
+
+}
+
+.copyright{
+    text-align: left;
+color: rgb(44, 8, 78);
+font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: auto;
+
+}
